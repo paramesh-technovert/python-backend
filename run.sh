@@ -13,4 +13,4 @@ pip install -r requirements.txt
 source .venv/Scripts/activate
 
 # Run FastAPI using Python module to avoid permission issues
-python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000 
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000 
